@@ -7,11 +7,11 @@ Implementing a local server for a defunct Flash, in-browser game making site. I 
 
 There was a successor to MyGameBuilder in MyGameBuilder v2, located at [build.games](https://build.games/), which adopted phaser.js alongside (and eventually replacing) the original visual actor-based engine, but as of writing this has fallen offline, likely with all the users, games and data migrated from the old site. This repository is in the hopes that if the actual site is completely gone, some element of the original site could still be used.
 
-Open to contributions, forks, comments, etc. I'm hopeful others more technically skilled than I am may have an interest in it.
+Open to contributions, forks, comments, etc. I'm hopeful others more technically skilled than I am might have an interest in it.
 
 ## Backend note
 
-Backend appears to have been originally implemented with Adobe Flex (now [Apache Flex](https://flex.apache.org/) judging from the com.adobe.flex.extras.controls package and URLs used. 
+Backend appears to have been originally implemented with Adobe Flex (now [Apache Flex](https://flex.apache.org/)) judging from the com.adobe.flex.extras.controls package and URLs used. 
 
 Each object in MGB like a map, actor, profile, or even friendship is an extension of the Piece class in the com.mgb.data package in the client SWF. These Pieces are saved, deleted, managed using the S3Service class.
 
